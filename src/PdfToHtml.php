@@ -82,7 +82,7 @@ class PdfToHtml
                 throw new FileNotFoundException($this->pdfPath);
             }
 
-            $process->setTimeout(60)->run();
+            $process->setTimeout($this->timeout)->run();
 
             if (!$process->isSuccessful()) {
                 $this->clearTmpFiles();
