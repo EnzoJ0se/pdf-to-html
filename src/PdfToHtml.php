@@ -9,7 +9,7 @@ use Symfony\Component\Process\Process;
 class PdfToHtml
 {
 	protected ?string $pdfPath;
-	protected ?string $extractorPath;
+	protected ?string $extractorPath = null;
     protected ?string $outputDir = __DIR__ . '/../tmp';
     protected ?string $outputName = null;
     protected int $timeout = 60;

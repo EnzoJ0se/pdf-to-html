@@ -1,5 +1,6 @@
 {
     "name": "enzojose/pdf-to-html",
+    "description": "A simple PHP library to convert PDF files to HTML using Poppler Utils.",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -21,7 +22,7 @@
     "minimum-stability": "dev",
     "require": {
         "php": "^8.2",
-        "symfony/process": "7.3.x-dev"
+        "symfony/process": "^7.3"
     },
     "require-dev": {
         "pestphp/pest": "4.x-dev"
